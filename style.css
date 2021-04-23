@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 
 }
 .hero{
@@ -13,7 +13,28 @@
     cursor: pointer;
     padding: 60px 60px;
     font-weight: 200;
-    color: #fff;    
+    color: #fff; 
+}
+.center{
+  text-align: center;
+}
+.centimg{
+  padding-bottom: 30px;
+}
+.intro{
+  font-family: sans-serif;
+  padding-bottom: 60px;
+}
+.intro p{
+  font-size: 30px;
+  color: #ccc;
+  opacity: 0.6;
+}
+.spn{
+  color: #fff;
+  opacity: 1;
+  font-weight: 900;
+
 }
 
   
