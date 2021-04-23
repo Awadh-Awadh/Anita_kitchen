@@ -8,6 +8,7 @@
 .hero{
   background-image: url("./images/landing.jpg");
   height: 815px;
+  margin-bottom: 100px;
   
 }
 .fa-bars{
@@ -74,5 +75,33 @@
   font-style: italic;
   font-size: 20px;
 }
+.container{
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  
+}
+.fastimages img{
+  width: 300px;
+  height: 150px;
+  overflow: hidden;
+  object-fit: cover;
+}
+.fastimages{
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  width: 400px;
+  height: 250px;
+  padding: 15px 15px;
+  border: 1px solid rgb(243, 240, 240);
+  box-shadow: 2px 2px 5px rgb(243, 241, 241), -2px -2px 5px rgb(243, 241, 241)
+  
+  
+}
+.fastfood{
+  margin-left: 15%;
+}
+
 
   
