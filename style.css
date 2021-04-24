@@ -75,16 +75,17 @@
   font-style: italic;
   font-size: 20px;
 }
-.container{
+.whole{
   width: 70%;
+  margin-left: 10%;
+}
+.container{
   display: flex;
   justify-content: center;
   padding-bottom: 50px;
   
 }
 .fastimages img{
-  width: 300px;
-  height: 150px;
   overflow: hidden;
   object-fit: cover;
 }
@@ -112,15 +113,14 @@
   cursor: pointer;
 }
 .container1{
-  width: 70%;
   display: flex;
-   padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 .wrapper {
     display: flex;
     flex-direction: row;
     margin-left: 15%;
-    width: 400px;
+    width: 300px;
     height: 250px;
     padding: 15px 15px;
     border: 1px solid rgb(243, 240, 240);
@@ -128,9 +128,29 @@
    
 }
 .wrapper img{
-    width: 150px;
-    height: 210px;
     overflow: hidden;
-    object-fit: cover;
-  
-} 
+    object-fit: cover;  
+}
+.menu{
+  background-image: url("./images/subscribe.jpg");
+  width: 100%;
+}
+.container2{
+  width: 60%;
+  margin-left: 20%;
+  border: 1px solid red;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+li{
+  list-style-type: none;
+}
+.corusel img{
+  width: 100px;
+  height: 100px;
+}
+.corusel{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
