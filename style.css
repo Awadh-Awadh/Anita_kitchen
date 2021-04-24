@@ -218,7 +218,6 @@ li{
       color: #F15A29;
     }
     .contact{
-      border: 1px solid blue;
       margin-top: 60px;
     }
     .message{
@@ -251,10 +250,42 @@ li{
       }
       .close{
         background-color: #F15A29;
+        height: 350px;
+        text-align: center;
+        color: #fff; 
+        padding-top: 30px;
       }
+      .item{
+        display: flex;
+        justify-content: center;
+        
+      }
+      h1{
+        align-self: center;
+        margin-left: 10px;
+      }
+      .socialmedia{
+        display: flex;
+        justify-content: center;
+        color: red;
+        cursor: pointer;
+      }
+      .facebook{
+        background-image: url(./images/facebook.png);
+        align-self: flex-start;
+           
+      }
+      .twitter{
+        background-image: url(./images/twitter.png);
+      }
+      .pinterest{
+        background-image: url(./images/pinterest.png);
+      }
+      .facebook,.twitter,.pinterest{
+        padding: 15px;
+        background-repeat:no-repeat;
 
-  
-
-
-
-
+      }
+      .down{
+        padding-top: 100px;
+      }
