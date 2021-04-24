@@ -182,12 +182,44 @@ li{
   margin-left: 20%;
   margin-top: 60px;
   display: flex;
+  border: 1px solid rgb(243, 240, 240);
+  box-shadow: 1px 2px 2px rgb(243, 241, 241), -1px -2px 1px rgb(218, 213, 213); 
 }
 .customers{
-  border: 1px solid blue;
   text-align: center;
+  padding-top: 20px;
   }
+  .line{
+    border: 1px solid rgb(243, 240, 240);
+  box-shadow: 1px 2px 2px rgb(243, 241, 241), -1px -2px 1px rgb(218, 213, 213); 
+    margin: 10px 0;
+  }
+  .aboutmenu{
+    text-align: center;
+    width: 40%;
+    padding-top: 20px;
+    line-height: 20px;
+  }
+  .profiles{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: #F15A29;
+    }
+    .profiles span{
+      align-self: center;
+      padding: 0 12px;
+      cursor: pointer;
+    }
+    .profiles img{
+      padding-left: 10px;
+    }
+    h3{
+      color: #F15A29;
+    }
+    .
   
+
 
 
 
