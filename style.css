@@ -217,7 +217,42 @@ li{
     h3{
       color: #F15A29;
     }
-    .
+    .contact{
+      border: 1px solid blue;
+      margin-top: 60px;
+    }
+    .message{
+      background-image: url(./images/subscribe.jpg);
+      height: 300px;
+      text-align: center;
+      padding-top: 100px;
+
+    }
+    h5{
+      color: #fff;
+      font-weight:700 ;
+      font-size: 20px;
+    }
+    .email{
+      background-color: #fff;
+      opacity: 0.5;
+      padding: 10px 50px;
+      }
+    .sub{
+      color: #fff;
+      background-color: #F15A29;
+      padding: 10px  30px;
+      cursor: pointer;
+      margin-left: 30px;
+      }
+      .email,.sub{
+        border-radius: 5px;
+        outline: none;
+      }
+      .close{
+        background-color: #F15A29;
+      }
+
   
 
 
