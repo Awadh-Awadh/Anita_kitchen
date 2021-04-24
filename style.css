@@ -79,6 +79,7 @@
   width: 70%;
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
   
 }
 .fastimages img{
@@ -95,13 +96,41 @@
   height: 250px;
   padding: 15px 15px;
   border: 1px solid rgb(243, 240, 240);
-  box-shadow: 2px 2px 5px rgb(243, 241, 241), -2px -2px 5px rgb(243, 241, 241)
-  
-  
+  box-shadow: 2px 2px 5px rgb(243, 241, 241), -2px -2px 5px rgb(243, 241, 241); 
+ 
 }
 .fastfood{
   margin-left: 15%;
 }
-
-
+.btn{
+  border: 1px solid red;
+  padding: 10px 20px;
+  color: red;
+  background-color:white;
+  border-top: 2px solid red;
+  border-bottom: 1px solid rgb(243, 173, 173);
+  cursor: pointer;
+}
+.container1{
+  width: 70%;
+  display: flex;
+   padding-bottom: 50px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    width: 400px;
+    height: 250px;
+    padding: 15px 15px;
+    border: 1px solid rgb(243, 240, 240);
+    box-shadow: 2px 2px 5px rgb(243, 241, 241), -2px -2px 5px rgb(243, 241, 241); 
+   
+}
+.wrapper img{
+    width: 150px;
+    height: 210px;
+    overflow: hidden;
+    object-fit: cover;
   
+} 
