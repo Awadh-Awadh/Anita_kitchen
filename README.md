@@ -32,7 +32,9 @@ Bugs the application is not responsive
 
 ## Licence
 
-Copyright (c) 2020 Awadh-Awadh
+[[Licence: MIT]](LICENCE.md)
+
+Copyright (c) 2020 **Awadh-Awadh**
 
 
 
