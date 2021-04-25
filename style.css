@@ -2,9 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  /* border: 1px solid blue; */
-
-
+  
 }
 .hero{
   background-image: url("./images/landing.jpg");
@@ -62,6 +60,7 @@
 }
 .food{
   display: flex;
+  cursor: pointer;
 }
 .centered{
   position: absolute;
@@ -147,25 +146,31 @@
   border: 1px solid rgb(243, 240, 240);
   box-shadow: 1px 2px 2px rgb(243, 241, 241), -1px -2px 1px rgb(243, 241, 241); 
 }
-.nav{
-  display: flex;
-  list-style-type: none;
-  justify-content: space-around;
-  border: 1px solid black;
-  padding: 20px;
-  background-color: #ccc;
-}
-li{
-  align-items: center;
-}
+
 .activated{
   color: #F15A29;
-}
-.nav li {
-  background-color: yellow;
-  padding: auto;
+  background-color: #fff;
+  padding-left: 30px;
+
 
 }
+
+table{
+  padding-bottom: 10px;
+}
+th{
+
+  padding: 10px 90px 10px 90px;
+  background-color:#ccc;
+  cursor: pointer;
+}
+.drinks,.chicken,.rice{
+  border-left: 1px solid rgb(116, 114, 114);
+}
+.drinks,.chicken,.rice{
+  border-right:none;
+}
+
 .corusel{
   display: flex;
   justify-content: space-between;
@@ -185,6 +190,7 @@ li{
   border: 1px solid rgb(243, 240, 240);
   box-shadow: 1px 2px 2px rgb(243, 241, 241), -1px -2px 1px rgb(218, 213, 213); 
 }
+
 .customers{
   text-align: center;
   padding-top: 20px;
