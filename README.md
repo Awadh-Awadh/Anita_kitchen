@@ -30,5 +30,9 @@ For any improvements or bug kindly reach me at awadhsaid84@gmail.com
 
 Bugs the application is not responsive
 
+## Licence
+
+Copyright (c) 2020 Awadh-Awadh
+
 
 
